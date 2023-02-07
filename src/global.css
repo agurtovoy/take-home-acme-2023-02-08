@@ -18,3 +18,9 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
+@layer utilities {
+    .active-outline {
+        @apply outline-none focus:ring-1 focus:ring-accent active:ring-1 active:ring-accent ui-open:ring-1 ui-open:ring-accent;
+    }
+}

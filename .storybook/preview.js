@@ -1,4 +1,4 @@
-import "tailwindcss/tailwind.css";
+import "src/global.css";
 
 export const parameters = {
     backgrounds: {
@@ -10,7 +10,6 @@ export const parameters = {
             },
         ],
     },
-    layout: "centered",
     actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
         matchers: {

@@ -11,11 +11,13 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.10",
     "clsx": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@headlessui/tailwindcss": "^0.1.2",
     "@storybook/addon-essentials": "^7.0.0-beta.44",
     "@storybook/addon-interactions": "^7.0.0-beta.44",
     "@storybook/addon-links": "^7.0.0-beta.44",
