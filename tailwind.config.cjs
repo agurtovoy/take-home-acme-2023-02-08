@@ -19,6 +19,11 @@ module.exports = {
             },
             accent: "#0D8B7F",
         },
+        extend: {
+            spacing: {
+                dflt: "24px",
+            },
+        },
     },
     plugins: [],
 };

@@ -2,7 +2,8 @@
     "extends": [
         "react-app", 
         "plugin:prettier/recommended", 
-        "plugin:storybook/recommended"
+        "plugin:storybook/recommended",
+        "plugin:jsx-a11y/recommended"
     ],
     "rules": {
         "react/no-unknown-property": ["error"],
