@@ -20,8 +20,8 @@ const ReportPanel = ({ data }) => (
     </div>
 );
 
-const Reports = ({ groupBy }) => {
-    const { data, error } = useReportsData({ groupBy });
+const Reports = ({ groupId }) => {
+    const { data, error } = useReportsData({ groupId });
     if (!data || error) return null;
 
     const reports = data.data;
