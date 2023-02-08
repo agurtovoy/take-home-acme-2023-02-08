@@ -13,11 +13,17 @@
   "dependencies": {
     "@headlessui/react": "^1.7.10",
     "clsx": "^1.2.1",
+    "i18next": "^22.4.9",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5",
+    "swr": "^2.0.3"
   },
   "devDependencies": {
     "@headlessui/tailwindcss": "^0.1.2",
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
     "@storybook/addon-essentials": "^7.0.0-beta.44",
     "@storybook/addon-interactions": "^7.0.0-beta.44",
     "@storybook/addon-links": "^7.0.0-beta.44",

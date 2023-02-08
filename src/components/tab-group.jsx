@@ -10,7 +10,8 @@ const TabGroup = ({ tabs, children }) => (
                     className={clsx(
                         "relative h-10 w-[200px] text-sm capitalize outline-none",
                         "ui-selected:active-tab-border ui-selected:bg-gray-50 ui-selected:text-gray-800",
-                        "ui-not-selected:inactive-tab-border ui-selected:after:bg-gray-50 ui-not-selected:before:border-l"
+                        "ui-not-selected:inactive-tab-border ui-not-selected:text-gray-500",
+                        "ui-selected:after:bg-gray-50 ui-not-selected:before:border-l"
                     )}
                 >
                     {label}

@@ -1,0 +1,5 @@
+{
+    "payEquityGap": "{{minority.label}} earn <0>{{minority.value}}</0> for every <0>{{majority.value}}</0> earned by comparable {{majority.label, lowercase}}",
+    "employeeComparison": "{{label}} make up <0>{{value}}</0> of employees",
+    "budget": "<0>{{value}}</0> minimum recommended budget to reduce pay equity gap"
+}

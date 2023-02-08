@@ -25,5 +25,5 @@ module.exports = {
             },
         },
     },
-    plugins: [require("@headlessui/tailwindcss")],
+    plugins: [require("@headlessui/tailwindcss"), require("@shrutibalasa/tailwind-grid-auto-fit")],
 };
