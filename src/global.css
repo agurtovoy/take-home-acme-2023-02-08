@@ -21,6 +21,24 @@ body {
 
 @layer utilities {
     .active-outline {
-        @apply outline-none focus:ring-1 focus:ring-accent active:ring-1 active:ring-accent ui-open:ring-1 ui-open:ring-accent;
+        @apply outline-none focus:ring-1 focus:ring-accent active:ring-1 active:ring-accent 
+            ui-open:ring-1 ui-open:ring-accent;
     }
+
+    .active-tab-border {
+        @apply border-t border-l border-r border-gray-200 after:absolute after:top-[100%] after:block 
+            after:h-[1px] after:w-full;
+    }
+
+    .inactive-tab-border {
+        @apply before:absolute before:top-2 before:bottom-2 before:block before:w-full before:border-gray-200;
+    }
+}
+
+button[data-headlessui-state=""]:last-of-type::before {
+    @apply border-r;
+}
+
+button[data-headlessui-state="selected"] + button[data-headlessui-state=""]::before {
+    border-left: none;
 }
