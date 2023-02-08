@@ -24,6 +24,9 @@ module.exports = {
             spacing: {
                 dflt: "24px",
             },
+            screens: {
+                xs: "400px",
+            },
         },
     },
     plugins: [require("@headlessui/tailwindcss"), require("@shrutibalasa/tailwind-grid-auto-fit")],
