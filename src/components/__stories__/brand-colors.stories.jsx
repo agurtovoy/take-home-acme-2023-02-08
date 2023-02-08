@@ -33,6 +33,7 @@ const BrandColors = () => (
         <Swatch color="gray-50" />
         <Swatch color="gray-100" />
         <Swatch color="gray-200" />
+        <Swatch color="gray-300" />
         <Swatch color="gray-500" />
         <Swatch color="gray-700" />
         <Swatch color="gray-800" />

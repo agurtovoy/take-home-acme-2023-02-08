@@ -23,7 +23,7 @@ const DropdownList = ({ label, items, value, onChange, className }) => (
                         <Listbox.Option
                             key={item.id}
                             value={item}
-                            className="cursor-pointer px-3 text-sm leading-10 hover:bg-gray-100"
+                            className="cursor-pointer px-3 text-sm leading-10 hover:bg-gray-100 ui-selected:text-gray-300"
                         >
                             {item.label}
                         </Listbox.Option>
